@@ -10,12 +10,14 @@ def calculate(a,b,operator):
         case '/':
             res = a/b
         case '**':
-            res = pow(a,b)
+            res = a**b
+        case 'sqrt':
+            res = a ** (1/b)
     return res
         
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 operator = str(input("Enter operation: "))
 result = calculate(a,b,operator)
-print(f"{a} {operator} {b} = {result}")
+print(f"{a} {operator} {b} = {result:.1f}")
         
