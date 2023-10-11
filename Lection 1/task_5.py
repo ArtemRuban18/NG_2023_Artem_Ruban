@@ -13,9 +13,9 @@ def square_equation(a,b,c):
     return f"x1 = {x1:.2f}   x2 = {x2:.2f}"
     
     
-a = int(input("Enter a: "))
-b = int(input("Enter b: "))
-c = int(input("Enter c: "))
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
 if b>=0:
     print(f"Square equation: {a}x^2 + {b}x + {c} = 0")
 else:
