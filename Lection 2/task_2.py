@@ -1,4 +1,4 @@
-lst = input("enter ")
+lst = input("Enter elements of array ")
 lst = lst.split()
 numbers = 0
 for element in lst:

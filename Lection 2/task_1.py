@@ -1,3 +1,3 @@
-lst = input("enter:")
-words = lst.split()
-print(set(words))
+lst = input("Enter elemets of array:")
+elements = lst.split()
+print(set(elements))
